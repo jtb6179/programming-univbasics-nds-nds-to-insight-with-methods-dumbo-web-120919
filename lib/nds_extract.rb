@@ -12,7 +12,7 @@ def directors_totals(nds)
   director_index = 0 
 while director_index < nds.length do 
   directors_name = nds[director_index]
-# binding.pry
+#binding.pry
   result[directors_name[:name]] = gross_for_director(directors_name)
   
   director_index += 1 
@@ -24,7 +24,7 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   
-# binding.pry 
+binding.pry 
 movies = 0 
 totals = 0 
 while movies < director_data[:movies].length do 
